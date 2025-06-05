@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Choco Zone Theme */
+body {
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.choco-header {
+  background-color: #4E342E;
+  color: white;
+}
+
+/* Sidebar */
+.choco-sidebar {
+  background-color: #D7CCC8;
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* Footer */
+.choco-footer {
+  background-color: #3E2723;
+  color: white;
+}
+
+/* Active Nav Link */
+.nav-link.active {
+  background-color: #795548;
+  color: white !important;
+}
+
+
